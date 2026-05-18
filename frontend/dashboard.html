@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <h1>BayRecruit Dashboard</h1>
+    <p>Welcome to the multi-cloud monitoring dashboard.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BayRecruit Dashboard</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #06142b;
+    }
+
+    .dashboard {
+      padding: 60px 10%;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+    }
+
+    .metric-card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .metric-card h3 {
+      color: #00679b;
+      margin-top: 0;
+    }
+
+    .metric-value {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .status {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="dashboard">
+
+    <h1>BayRecruit Cloud Dashboard</h1>
+
+    <p class="subtitle">
+      Real-time overview of cloud deployment, monitoring, and DevOps operations.
+    </p>
+
+    <div class="metrics">
+
+      <div class="metric-card">
+        <h3>Running Services</h3>
+        <div class="metric-value">4</div>
+        <p class="status">Healthy</p>
+      </div>
+
+      <div class="metric-card">
+        <h3>Deployments</h3>
+        <div class="metric-value">12</div>
+        <p class="status">Successful</p>
+      </div>
+
+      <div class="metric-card">
+        <h3>Cloud Providers</h3>
+        <div class="metric-value">3</div>
+        <p class="status">AWS Azure GCP</p>
+      </div>
+
+      <div class="metric-card">
+        <h3>Monitoring Alerts</h3>
+        <div class="metric-value">0</div>
+        <p class="status">No Active Alerts</p>
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>

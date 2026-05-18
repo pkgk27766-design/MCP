@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BayRecruit</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6fa;
+      color: white;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #082b4c, #12a8df);
+      min-height: 100vh;
+      padding: 30px 10%;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .logo span {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 6px;
+    }
+
+    .links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight: bold;
+    }
+
+    .content {
+      margin-top: 100px;
+      max-width: 850px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(255,255,255,0.18);
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 52px;
+      line-height: 1.15;
+      margin: 0 0 25px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      max-width: 850px;
+    }
+
+    .buttons {
+      margin-top: 35px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 16px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 12px;
+    }
+
+    .primary {
+      background: white;
+      color: #00679b;
+    }
+
+    .secondary {
+      border: 1px solid white;
+      color: white;
+    }
+
+    .card {
+      margin-top: 55px;
+      background: white;
+      color: #06142b;
+      padding: 35px;
+      border-radius: 20px;
+      max-width: 900px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 30px;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 18px;
+    }
+
+    .services {
+      background: white;
+      padding: 80px 10%;
+      color: #06142b;
+    }
+
+    .services h2 {
+      font-size: 42px;
+      margin-bottom: 40px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .service-card {
+      background: #f4f7fb;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .service-card h3 {
+      color: #00679b;
+      margin-top: 0;
+    }
+
+    .service-card p {
+      color: #333;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #083b5c;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+
+    <div class="nav">
+
+      <div class="logo">
+        BayRecruit
+        <span>Multi-Cloud DevOps Platform</span>
+      </div>
+
+      <div class="links">
+        <a href="company.html">Company</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#services">Services</a>
+        <a href="#">Cloud Stack</a>
+      </div>
+
+    </div>
+
+    <div class="content">
+
+      <div class="tag">
+        New Zealand-based Multi-Cloud DevOps Platform
+      </div>
+
+      <h1>
+        Helping organisations monitor, automate, and manage cloud operations across AWS, Azure, and Google Cloud.
+      </h1>
+
+      <p>
+        BayRecruit is a cloud operations and DevOps platform provider helping organisations manage infrastructure,
+        automation, deployments, monitoring, and multi-cloud operations.
+      </p>
+
+      <div class="buttons">
+        <a class="primary" href="dashboard.html">View Dashboard</a>
+        <a class="secondary" href="#services">Explore Services</a>
+      </div>
+
+      <div class="card">
+
+        <h2>What BayRecruit Does</h2>
+
+        <p>
+          BayRecruit helps businesses manage cloud deployments, automate DevOps workflows,
+          track cloud performance, and improve operational visibility across multiple cloud providers.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="services" class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+
+      <div class="service-card">
+        <h3>AWS Cloud Deployment</h3>
+        <p>
+          ECS Fargate, ECR, ALB, CloudWatch, and scalable cloud infrastructure deployment.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>DevOps Automation</h3>
+        <p>
+          CI/CD pipelines, Docker containerization, Terraform automation, and monitoring.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Multi-Cloud Operations</h3>
+        <p>
+          Manage AWS, Azure, and Google Cloud environments from one operational platform.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 BayRecruit | Multi-Cloud DevOps Platform
+  </footer>
+
+</body>
+</html>
